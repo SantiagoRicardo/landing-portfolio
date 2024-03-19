@@ -1,29 +1,30 @@
 import React from "react";
 
-const SpinningText = ({ text }) => {
+const SpinningText = ({ text, children }) => {
   const lenght = text.length;
   const deg = 360 / lenght;
   return (
     <div
-      className="hover:cursor-pointer text-base text-slate-900 font absolute w-[220px] h-[220px] bg-[#DCFD15] rounded-full grid place-items-center"
+      className="text-base rounded-full -mt-44 hover:cursor-pointer "
       id="spinnging-text-wrapper"
     >
       <div
         //className="absolute w-full h-full m-0 animate-spin-slow"
         id="spinning-text"
       >
-        <p className="text-xs text-slate-950">
+        <p className="text-base text-slate-200">
           {text.split("").map((word, i) => (
             <span
               className="top-0 left-1/2"
               key={i}
-              style={{ transform: `rotate(${deg * i}deg) translateY(-50%)` }}
+              style={{ transform: `rotate(${deg * i}deg) translateY(-150%)` }}
             >
               {word}
             </span>
           ))}
         </p>
       </div>
+      {children}
     </div>
   );
 };

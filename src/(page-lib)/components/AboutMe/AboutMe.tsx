@@ -1,4 +1,11 @@
-import { SiAstro, SiFlutter, SiNextdotjs } from "react-icons/si";
+import {
+  SiAstro,
+  SiFlutter,
+  SiJavascript,
+  SiNextdotjs,
+  SiPython,
+  SiTypescript,
+} from "react-icons/si";
 
 const AboutMe = () => {
   return (
@@ -38,6 +45,11 @@ const AboutMe = () => {
         <h1 className="mb-8 text-lg font-semibold text-gray-700 dark:text-gray-300 md:text-4xl">
           Lenguajes de <span className="text-[#4FFFBF]">programación</span>
         </h1>
+        <div className="flex justify-between">
+          <SiJavascript className="w-16 h-16 text-yellow-300" />
+          <SiTypescript className="w-16 h-16 text-sky-700" />
+          <SiPython className="w-16 h-16 text-sky-500" />
+        </div>
         <h1 className="mb-8 text-lg font-semibold leading-loose text-gray-700 dark:text-gray-300 md:text-4xl">
           Frameworks
         </h1>
