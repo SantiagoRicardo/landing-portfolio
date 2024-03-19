@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #spinnging-text-wrapper {
-  position: absolute;
+  position: relative;
   width: 220px;
   height: 220px;
   background-color: #dcfd15;
