@@ -1,5 +1,3 @@
-import React from "react";
-
 const Projects = () => {
   return (
     <div className="px-10 mt-32 text-lg text-white">
