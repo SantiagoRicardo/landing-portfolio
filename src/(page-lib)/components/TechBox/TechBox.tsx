@@ -1,7 +1,8 @@
-// TechBox.js
-import React from "react";
+interface TechBoxProps {
+  imageSrc: string;
+}
 
-const TechBox = ({ imageSrc }) => {
+const TechBox = ({ imageSrc }: TechBoxProps) => {
   return (
     <div className="relative bg-[#6880FF] rounded-3xl p-4 shadow-2xl">
       <img src={imageSrc} alt="Tecnologías" className="w-full h-auto" />

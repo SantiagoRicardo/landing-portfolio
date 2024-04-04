@@ -1,6 +1,9 @@
-import React from "react";
+interface SpinningTextProps {
+  text: string;
+  children: React.ReactNode;
+}
 
-const SpinningText = ({ text, children }) => {
+const SpinningText = ({ text, children }: SpinningTextProps) => {
   const lenght = text.length;
   const deg = 360 / lenght;
   return (
