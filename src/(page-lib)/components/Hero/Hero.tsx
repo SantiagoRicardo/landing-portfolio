@@ -1,11 +1,12 @@
 import SpinningText from "../SpinningText";
 import TechBox from "../TechBox";
+import santiagoImage from "../../../assets/santiago-image.png";
 
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-between w-full h-screen md:relative md:flex-row">
       <div className="w-full p-5 text-3xl font-bold text-white md:flex justify-evenly md:text-5xl">
-        <TechBox imageSrc={"./src/assets/santiago-image.png"} />
+        <TechBox imageSrc={santiagoImage} />
         {/* <div>
             <h1 className="uppercase">front end</h1>
             <h1 className="uppercase">front end</h1>
