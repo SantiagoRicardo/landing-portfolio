@@ -3,7 +3,7 @@ interface TechBoxProps {
   className?: string;
 }
 
-const TechBox = ({ imageSrc, className }: TechBoxProps) => {
+const TechBox = ({ imageSrc }: TechBoxProps) => {
   return (
     <div>
       <img src={imageSrc} alt="Tecnologías" className="md:-mt-24" />
