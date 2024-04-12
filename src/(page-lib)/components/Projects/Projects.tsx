@@ -19,13 +19,13 @@ const Projects = () => {
           integración perfecta entre el diseño y la funcionalidad.
         </p>
       </div>
-      <div className="overflow-x-scroll flex gap-6 bg-[#2F2F2F] rounded-md p-10 ">
+      <div className="md:flex gap-6 bg-[#2F2F2F] rounded-md p-5 ">
         <Portfolio
           imageSrc={naranjoExpress}
           text1={"Naranjo"}
           text2={"Express"}
         />
-        <Portfolio imageSrc={timebli} text1={"timebli"} />
+        <Portfolio imageSrc={timebli} text2={"timebli"} />
         <Portfolio
           imageSrc={almidonesElMana}
           text1={"Almidones"}
