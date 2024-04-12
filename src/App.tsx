@@ -1,4 +1,10 @@
-import { Hero, AboutMe, BoxBehind, Projects } from "./(page-lib)/components";
+import {
+  Hero,
+  AboutMe,
+  BoxBehind,
+  Projects,
+  Form,
+} from "./(page-lib)/components";
 import { Navbar } from "./(page-lib)/layouts";
 import "./index.css";
 
@@ -10,6 +16,7 @@ function App() {
       <Hero />
       <AboutMe />
       <Projects />
+      <Form />
     </>
   );
 }
