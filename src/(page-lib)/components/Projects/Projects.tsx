@@ -1,4 +1,7 @@
 import Portfolio from "../Portfolio";
+import naranjoExpress from "../../../assets/naranjo-express.png";
+import timebli from "../../../assets/timebli.png";
+import almidonesElMana from "../../../assets/almidones-el-mana.png";
 
 const Projects = () => {
   return (
@@ -18,13 +21,16 @@ const Projects = () => {
       </div>
       <div className="overflow-x-scroll flex gap-6 bg-[#2F2F2F] rounded-md p-10 ">
         <Portfolio
-          imageSrc={"./src/assets/naranjo-express.png"}
+          imageSrc={naranjoExpress}
           text1={"Naranjo"}
           text2={"Express"}
         />
-        <div className="bg-[#535353]">Proyecto 1</div>
-        <div className="bg-[#535353]">Proyecto 2</div>
-        <div className="bg-[#535353]">Proyecto 3</div>
+        <Portfolio imageSrc={timebli} text1={"timebli"} />
+        <Portfolio
+          imageSrc={almidonesElMana}
+          text1={"Almidones"}
+          text2={"El Mana"}
+        />
       </div>
     </div>
   );

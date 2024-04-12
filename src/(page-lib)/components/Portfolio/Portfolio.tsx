@@ -1,7 +1,7 @@
 interface PortfolioProps {
   imageSrc: string;
   text1: string;
-  text2: string;
+  text2?: string;
 }
 
 const Portfolio = ({ imageSrc, text1, text2 }: PortfolioProps) => {
