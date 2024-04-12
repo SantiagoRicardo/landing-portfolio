@@ -8,13 +8,11 @@
   height: 220px;
   background-color: #dcfd15;
   border-radius: 50%;
-  display: grid;
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 #spinning-text {
-  position: absolute;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -29,6 +27,11 @@
   letter-spacing: 0.5rem;
 }
 
+h1 {
+  line-height: 0.9;
+  margin-bottom: 0;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -36,5 +39,11 @@
 
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 767px) {
+  #spinning-text-wrapper {
+    display: none; /* Se muestra como grid en pantallas medianas y grandes */
   }
 }
