@@ -6,6 +6,7 @@ import {
   Form,
 } from "./(page-lib)/components";
 import { Navbar } from "./(page-lib)/layouts";
+import Footer from "./(page-lib)/layouts/Footer";
 import "./index.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <AboutMe />
       <Projects />
       <Form />
+      <Footer />
     </>
   );
 }

@@ -10,7 +10,7 @@ const Form = () => {
       <div className="justify-center gap-2 mt-8 text-sm font-semibold md:flex">
         <p>sricardodev@gmail.com</p>
         <span className="text-[#FFFFFF]">•</span>
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-3">
           <img src={x} alt="loading..." />
           <img src={facebook} alt="loading..." />
           <img src={instagram} alt="loading..." />
@@ -23,7 +23,7 @@ const Form = () => {
         className="font-medium mt-12 md:flex gap-6 bg-[#606060] text-left justify-center p-4 rounded-t-2xl"
         action=""
       >
-        <div className="w-1/2">
+        <div>
           <div>
             <label className="mb-2">Nombre</label>
             <input
