@@ -8,7 +8,7 @@ const SpinningText = ({ text, children }: SpinningTextProps) => {
   const deg = 360 / lenght;
   return (
     <div
-      className="text-base rounded-full -mt-44 hover:cursor-pointer "
+      className="hidden text-base rounded-full hover:cursor-pointer"
       id="spinnging-text-wrapper"
     >
       <div
